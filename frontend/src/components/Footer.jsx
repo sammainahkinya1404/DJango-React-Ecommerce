@@ -1,15 +1,16 @@
 import React from 'react'
-import {Container,Row,Col} from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 const Footer = () => {
   return (
     <footer>
       <Container>
         <Row>
-          <Col>Copyright @copy;Twizard Developers</Col>
+          <Col>Twizard Developers 2024</Col>
         </Row>
-        
-
       </Container>
 
     </footer>
